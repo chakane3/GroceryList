@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		949284492758E80C0029F6E6 /* GroceriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949284482758E80C0029F6E6 /* GroceriesListViewController.swift */; };
+		9492844B2758E8220029F6E6 /* CreateItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492844A2758E8220029F6E6 /* CreateItemViewController.swift */; };
 		94A39E8A27534EEF006364AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A39E8927534EEF006364AE /* AppDelegate.swift */; };
 		94A39E8C27534EEF006364AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A39E8B27534EEF006364AE /* SceneDelegate.swift */; };
-		94A39E8E27534EEF006364AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A39E8D27534EEF006364AE /* ViewController.swift */; };
 		94A39E9127534EEF006364AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A39E8F27534EEF006364AE /* Main.storyboard */; };
 		94A39E9327534EF2006364AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94A39E9227534EF2006364AE /* Assets.xcassets */; };
 		94A39E9627534EF2006364AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A39E9427534EF2006364AE /* LaunchScreen.storyboard */; };
@@ -19,10 +20,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		949284482758E80C0029F6E6 /* GroceriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesListViewController.swift; sourceTree = "<group>"; };
+		9492844A2758E8220029F6E6 /* CreateItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemViewController.swift; sourceTree = "<group>"; };
 		94A39E8627534EEF006364AE /* GroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A39E8927534EEF006364AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A39E8B27534EEF006364AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		94A39E8D27534EEF006364AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		94A39E9027534EEF006364AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94A39E9227534EF2006364AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94A39E9527534EF2006364AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -86,7 +88,8 @@
 		94A39E9E27534F24006364AE /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				94A39E8D27534EEF006364AE /* ViewController.swift */,
+				949284482758E80C0029F6E6 /* GroceriesListViewController.swift */,
+				9492844A2758E8220029F6E6 /* CreateItemViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -179,10 +182,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				94A39E8E27534EEF006364AE /* ViewController.swift in Sources */,
+				949284492758E80C0029F6E6 /* GroceriesListViewController.swift in Sources */,
 				94A39EA127535B35006364AE /* FileManager+Extensions.swift in Sources */,
 				94A39E8A27534EEF006364AE /* AppDelegate.swift in Sources */,
 				94A39EA327535FD8006364AE /* PersistenceHelper.swift in Sources */,
+				9492844B2758E8220029F6E6 /* CreateItemViewController.swift in Sources */,
 				94A39EA6275362AF006364AE /* GroceryItem.swift in Sources */,
 				94A39E8C27534EEF006364AE /* SceneDelegate.swift in Sources */,
 			);
