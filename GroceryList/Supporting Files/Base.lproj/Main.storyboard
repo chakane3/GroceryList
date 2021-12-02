@@ -11,7 +11,7 @@
         <!--Groceries-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GroceryList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="GroceriesListViewController" customModule="GroceryList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -78,15 +78,18 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="pqR-0t-z0V" id="nGa-kl-3jL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="86.383928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Create Item View Controller-->
         <scene sceneID="x7f-MJ-oJ9">
             <objects>
-                <viewController id="s7L-s7-jnn" sceneMemberID="viewController">
+                <viewController id="s7L-s7-jnn" customClass="CreateItemViewController" customModule="GroceryList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="H5P-Rt-3fM">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -165,6 +168,11 @@
                             <constraint firstItem="Yr9-NY-rLG" firstAttribute="leading" secondItem="YB6-gc-V53" secondAttribute="leading" constant="20" id="s5c-74-8fS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="departmentTextField" destination="piH-TV-UI8" id="mGp-Oy-jDf"/>
+                        <outlet property="itemNameTextField" destination="zU2-kn-UG1" id="W9M-UP-BZT"/>
+                        <outlet property="quantityTextField" destination="vge-1B-PSd" id="X3s-tB-Ie2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YE5-kS-KMP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

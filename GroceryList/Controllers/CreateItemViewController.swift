@@ -8,22 +8,34 @@
 import UIKit
 
 class CreateItemViewController: UIViewController {
-
+    @IBOutlet weak var itemNameTextField: UITextField!
+    @IBOutlet weak var quantityTextField: UITextField!
+    @IBOutlet weak var departmentTextField: UITextField!
+    
+    // bring in grocery item var
+    var item: GroceryItem?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+}
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension CreateItemViewController: UITextFieldDelegate {
+    func textFieldShouldReturn(_ textField: UITextField) -> Bool {
+        // dismiss keyboard
+        textField.resignFirstResponder()
+        
+        // update name
+        item?.item = itemNameTextField.text ?? "no grocery item name"
+        
+        // update quantity
+        item?.quantity = quantityTextField.text ?? "no item quantity"
+        
+        // update department
+        item?.department = departmentTextField.text ?? "No department name"
+        
+        return true
     }
-    */
-
 }

@@ -9,7 +9,7 @@ import Foundation
 
 
 struct GroceryItem: Codable {
-    let item: String
-    let quantity: Int
-    let department: String  // i.e meat, dairy, produce, bakery, deli, packaged
+    var item: String
+    var quantity: String
+    var department: String  // i.e meat, dairy, produce, bakery, deli, packaged
 }
