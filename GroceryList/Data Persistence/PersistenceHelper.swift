@@ -23,7 +23,7 @@ class PersistenceHelper {
     // appends new data to our array
     static func saveItem(item: GroceryItem) throws {
         groceryItems.append(item)
-        // try save()
+         try save()
     }
     
     // persist data with filemanager

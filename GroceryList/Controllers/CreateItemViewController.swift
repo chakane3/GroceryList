@@ -13,14 +13,19 @@ class CreateItemViewController: UIViewController {
     @IBOutlet weak var departmentTextField: UITextField!
     
     // bring in grocery item var
-    var item: GroceryItem?
+    var items: GroceryItem?
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        itemNameTextField.delegate = self
+        quantityTextField.delegate = self
+        departmentTextField.delegate = self
+        
     }
 }
+    
+
 
 extension CreateItemViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
@@ -28,13 +33,13 @@ extension CreateItemViewController: UITextFieldDelegate {
         textField.resignFirstResponder()
         
         // update name
-        item?.item = itemNameTextField.text ?? "no grocery item name"
+        items?.item = itemNameTextField.text ?? "no grocery item name"
         
         // update quantity
-        item?.quantity = quantityTextField.text ?? "no item quantity"
+        items?.quantity = quantityTextField.text ?? "no item quantity"
         
         // update department
-        item?.department = departmentTextField.text ?? "No department name"
+        items?.department = departmentTextField.text ?? "No department name"
         
         return true
     }

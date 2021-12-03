@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		949284492758E80C0029F6E6 /* GroceriesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949284482758E80C0029F6E6 /* GroceriesListViewController.swift */; };
 		9492844B2758E8220029F6E6 /* CreateItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9492844A2758E8220029F6E6 /* CreateItemViewController.swift */; };
+		94928451275935280029F6E6 /* configureGroceryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94928450275935280029F6E6 /* configureGroceryCell.swift */; };
 		94A39E8A27534EEF006364AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A39E8927534EEF006364AE /* AppDelegate.swift */; };
 		94A39E8C27534EEF006364AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A39E8B27534EEF006364AE /* SceneDelegate.swift */; };
 		94A39E9127534EEF006364AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94A39E8F27534EEF006364AE /* Main.storyboard */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		949284482758E80C0029F6E6 /* GroceriesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesListViewController.swift; sourceTree = "<group>"; };
 		9492844A2758E8220029F6E6 /* CreateItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemViewController.swift; sourceTree = "<group>"; };
+		94928450275935280029F6E6 /* configureGroceryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = configureGroceryCell.swift; sourceTree = "<group>"; };
 		94A39E8627534EEF006364AE /* GroceryList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94A39E8927534EEF006364AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		94A39E8B27534EEF006364AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 			children = (
 				949284482758E80C0029F6E6 /* GroceriesListViewController.swift */,
 				9492844A2758E8220029F6E6 /* CreateItemViewController.swift */,
+				94928450275935280029F6E6 /* configureGroceryCell.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				949284492758E80C0029F6E6 /* GroceriesListViewController.swift in Sources */,
 				94A39EA127535B35006364AE /* FileManager+Extensions.swift in Sources */,
+				94928451275935280029F6E6 /* configureGroceryCell.swift in Sources */,
 				94A39E8A27534EEF006364AE /* AppDelegate.swift in Sources */,
 				94A39EA327535FD8006364AE /* PersistenceHelper.swift in Sources */,
 				9492844B2758E8220029F6E6 /* CreateItemViewController.swift in Sources */,
